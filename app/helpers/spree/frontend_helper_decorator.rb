@@ -1,4 +1,4 @@
-module Spree::ReturnAuthorizationsHelper
+module Spree::FrontendHelperDecorator
 
   def exchange_for_item_return?(return_item)
     return_item.persisted? && return_item.exchange_variant_id?
